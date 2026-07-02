@@ -27,3 +27,22 @@ export const RUpay = TryCatch(async(req,res)=>{
     });
 
 });
+
+export const Sakshi = TryCatch(async(req,res)=>{
+
+    console.log("paymentControllerSakshi")
+
+    res.status(200).json({
+        message:"Token refreshed"
+    });
+
+});
+export const Kanchi = TryCatch(async(req,res)=>{
+
+    console.log("paymentControllerKanchi")
+
+    res.status(200).json({
+        message:"Token refreshed"
+    });
+
+});
