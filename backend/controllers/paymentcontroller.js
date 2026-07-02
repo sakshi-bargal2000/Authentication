@@ -30,7 +30,7 @@ export const RUpay = TryCatch(async(req,res)=>{
 
 export const Sakshi = TryCatch(async(req,res)=>{
 
-    console.log("paymentControllerSakshi")
+    console.log("Sakshi")
 
     res.status(200).json({
         message:"Token refreshed"
