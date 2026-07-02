@@ -1,0 +1,22 @@
+MERN Authentication Tutorial - Complete Guide with JWT, Refresh Tokens, 2FA, & More by Small Town Coder
+
+
+1-> NoSQL Injection
+
+prevent using sanitize -> npm i mongo-sanitize
+and zod validation no need to email validation using regex
+
+
+2-> Email verification
+
+npm i nodemailer
+redis ratelimiter for 1 verification mail in min 
+(upstash 256Mb free for 1000user approx login->dashboard->create_database-> 
+name-> below ioredis-> click eye got redis url)
+
+
+Ip + email based rate limiting  with Redis
+access and refresh token
+CSRF
+role based authentication 
+session authentication
