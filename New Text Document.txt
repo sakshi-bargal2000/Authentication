@@ -36,4 +36,10 @@ git branch -M main
 git push -u origin main
 
  git config --global user.email "you@example.com"
->>   git config --global user.name "Your Name"
+ git config --global user.name "Your Name"
+
+ git config --global user.email "sakshibargal2000@gmail.com"
+ git config --global user.name "Sakshi"
+
+  git config --global user.email "testKanchi@gmail.com"
+ git config --global user.name "Kanchi"
